@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yvan Ralph</title>
+    <link rel="icon" href="./program/logo/favicon.PNG" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link href="./program/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+      };
+    </script>
+  </head>
+  <body
+    class="bg-white dark:bg-black font-sans font-medium transition-colors duration-300"
+  >
+    <nav class="mt-5 flex justify-between w-full px-4 sm:px-6 lg:px-11">
+      <div class="text-gray-900 dark:text-white text-2xl">
+        <a href="#home">
+          <img
+            id="logo"
+            src="./program/logo/dark.png"
+            class="w-10 sm:w-12 lg:w-14"
+          />
+        </a>
+      </div>
+      <div class="text-gray-900 dark:text-white text-sm">
+        <button id="theme-toggle" class="p-2 text-xl sm:text-2xl"></button>
+      </div>
+    </nav>
+
+    <main class="px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+      <section class="w-full max-w-[640px] mt-8 sm:mt-10">
+        <h1
+          class="text-gray-900 dark:text-white text-xl sm:text-2xl lg:text-3xl"
+          id="home"
+        >
+          Yvan Ralph
+        </h1>
+        <div class="flex flex-wrap gap-2 sm:gap-3 mt-2">
+          <a
+            href="https://github.com/yvanralph"
+            class="text-blue-700 dark:text-blue-400 text-xs sm:text-sm"
+          >
+            <i class="fab fa-github text-xs sm:text-sm"></i> Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ishimwe-yvan-ralph-706388231/"
+            class="text-blue-700 dark:text-blue-400 text-xs sm:text-sm"
+          >
+            <i class="fab fa-linkedin text-xs sm:text-sm"></i> LinkedIn
+          </a>
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vTYMA36gJObWupOoWwnQpRTsTztLLaPKLGv4O8-okEa6OhGkjlpUKAziSGU2E4hA8Zz8c_SvYq20Ywc/pub"
+            class="text-blue-700 dark:text-blue-400 text-xs sm:text-sm"
+          >
+            <i class="fas fa-file-word text-xs sm:text-sm"></i> CV
+          </a>
+        </div>
+        <p
+          class="text-gray-700 dark:text-white text-sm sm:text-base font-normal mt-3 max-w-2xl"
+        >
+          I'm a Software Engineer skilled in many areas, focusing on Backend
+          Development. I design systems that keep web applications smooth and
+          scalable.
+        </p>
+        <p class="text-gray-600 dark:text-white text-xs sm:text-sm mt-2">
+          -Kigali, Rwanda.
+        </p>
+      </section>
+
+      <section class="w-full max-w-[640px] mt-8 sm:mt-10 lg:mt-12">
+        <h1
+          class="text-gray-900 dark:text-white text-base sm:text-lg lg:text-xl"
+        >
+          Tech stack
+        </h1>
+
+        <div
+          class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-9 gap-4 sm:gap-6 mt-6"
+        >
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/css.png"
+              class="w-5 sm:w-6 lg:w-7 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              CSS
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/html.png"
+              class="w-6 sm:w-7 lg:w-8 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              HTML
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/js.png"
+              class="w-7 sm:w-8 lg:w-9 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              Javascript
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/figma.png"
+              class="w-6 sm:w-7 lg:w-8 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              Figma
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/python.png"
+              class="w-6 sm:w-7 lg:w-8 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              Python
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/node.png"
+              class="w-6 sm:w-7 lg:w-8 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              NodeJS
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/tailwind.png"
+              class="w-8 sm:w-9 lg:w-10 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              Tailwind
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/sqlite.png"
+              class="w-10 sm:w-11 lg:w-12 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              SQLite
+            </div>
+          </div>
+
+          <div
+            class="relative inline-block group flex justify-center items-center h-12 sm:h-14"
+          >
+            <img
+              src="./program/logo/git.png"
+              class="w-6 sm:w-7 lg:w-8 h-auto max-h-full object-contain"
+            />
+            <div
+              class="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 dark:bg-white text-white dark:text-gray-800 text-xs rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap"
+            >
+              Git
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full max-w-[640px] mt-10 sm:mt-12 lg:mt-16">
+        <h1
+          class="text-gray-900 dark:text-white text-base sm:text-lg lg:text-xl"
+          id="projects"
+        >
+          Projects
+        </h1>
+
+        <div class="mt-6">
+          <h4 class="text-gray-500 text-sm">01</h4>
+          <div
+            class="flex flex-col sm:flex-row sm:justify-between sm:items-start mt-2"
+          >
+            <h3 class="text-gray-900 dark:text-white text-sm sm:text-base">
+              Library Management
+            </h3>
+            <a
+              href="https://github.com/yvanralph/LibraryManagement"
+              class="text-gray-600 dark:text-gray-300 text-xs sm:text-sm font-normal underline mt-1 sm:mt-0"
+              >Github</a
+            >
+          </div>
+          <p
+            class="text-gray-700 dark:text-white text-xs sm:text-sm font-normal mt-3 sm:mt-4"
+          >
+            Library Management CLI System A simple, interactive command-line
+            application for library employees to manage books, users, rentals,
+            and returns.
+          </p>
+
+          <div class="flex flex-wrap gap-2 mt-3">
+            <p
+              class="text-gray-600 dark:text-gray-400 font-normal border border-gray-600 dark:border-gray-400 text-xs px-2 py-1 rounded-lg"
+            >
+              Python
+            </p>
+            <p
+              class="text-gray-600 dark:text-gray-400 font-normal border border-gray-600 dark:border-gray-400 text-xs px-2 py-1 rounded-lg"
+            >
+              SQLite
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full max-w-[640px] mt-10 sm:mt-12 lg:mt-16">
+        <h1
+          class="text-gray-900 dark:text-white text-base sm:text-lg lg:text-xl"
+          id="experience"
+        >
+          Experiences
+        </h1>
+
+        <div class="max-w-full mt-6 sm:mt-8 lg:mt-10">
+          <!-- Tabs -->
+          <div class="flex border-b border-gray-400 dark:border-gray-300">
+            <button
+              id="tab-work"
+              class="px-3 sm:px-4 py-2 text-white bg-gray-900 dark:text-black dark:bg-white font-semibold text-xs sm:text-sm focus:outline-none"
+              onclick="switchTab('work')"
+            >
+              Work
+            </button>
+            <button
+              id="tab-studies"
+              class="px-3 sm:px-4 py-2 text-xs sm:text-sm text-gray-600 dark:text-gray-400 border-transparent hover:text-gray-900 dark:hover:text-white focus:outline-none"
+              onclick="switchTab('studies')"
+            >
+              Studies
+            </button>
+          </div>
+
+          <!-- Content -->
+          <div id="content-work" class="p-3 sm:p-4">
+            <p class="text-gray-500 text-xs sm:text-sm">Jan 2023 - Mar 2024</p>
+            <h3
+              class="text-gray-900 dark:text-white font-bold text-sm sm:text-base"
+            >
+              Spyware Ltd
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Freelancer</p>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">
+              Web Design; Web Development.
+            </p>
+          </div>
+
+          <div id="content-studies" class="p-3 sm:p-4 hidden">
+            <p class="text-gray-500 text-xs sm:text-sm">May 2024 - Sept 2027</p>
+            <h3
+              class="text-gray-900 dark:text-white font-bold text-sm sm:text-base"
+            >
+              African Leadership University
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">
+              B.Sc. in Software Engineering
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="w-full max-w-[520px] mt-10 sm:mt-12 lg:mt-16"
+        id="contact"
+      >
+        <div
+          class="h-[2px] bg-gray-900 dark:bg-white w-[360px] mx-auto lg:mx-0 lg:ml-[60px]"
+        ></div>
+
+        <p
+          class="text-gray-700 dark:text-white text-sm sm:text-base font-normal mt-6"
+        >
+          I'm always looking for new opportunities to collaborate and grow.
+          Whether you have a project in mind or just want to say hello, I'd love
+          to hear from you.
+        </p>
+
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 mt-6">
+          <div class="flex-1">
+            <form action="https://formspree.io/f/xanbvgje" method="POST">
+              <input
+                placeholder="Fullname"
+                type="text"
+                name="fullname"
+                class="border border-gray-900 dark:border-white bg-gray-200 rounded-s-lg dark:bg-gray-700 text-gray-900 dark:text-white text-xs sm:text-sm p-2 sm:p-2 mt-4 w-full max-w-[320px] placeholder-gray-600 dark:placeholder-gray-300"
+                required
+              />
+              <input
+                placeholder="Email"
+                type="email"
+                name="email"
+                class="border border-gray-900 dark:border-white bg-gray-200 rounded-s-lg dark:bg-gray-700 text-gray-900 dark:text-white text-xs sm:text-sm p-2 sm:p-2 mt-4 w-full max-w-[320px] placeholder-gray-600 dark:placeholder-gray-300"
+                required
+              />
+              <input
+                placeholder="Subject"
+                type="text"
+                name="subject"
+                class="border border-gray-900 dark:border-white bg-gray-200 rounded-s-lg dark:bg-gray-700 text-gray-900 dark:text-white text-xs sm:text-sm p-2 sm:p-2 mt-4 w-full max-w-[320px] placeholder-gray-600 dark:placeholder-gray-300"
+              />
+              <textarea
+                placeholder="Message"
+                name="message"
+                rows="4"
+                class="border border-gray-900 dark:border-white bg-gray-200 rounded-s-lg dark:bg-gray-700 text-gray-900 dark:text-white text-xs sm:text-sm p-2 sm:p-2 mt-4 w-full max-w-[320px] placeholder-gray-600 dark:placeholder-gray-300 resize-none"
+                required
+              ></textarea
+              ><br />
+              <button
+                type="submit"
+                class="bg-gray-900 dark:bg-white text-white dark:text-black border-2 px-4 sm:px-6 py-2 mt-5 rounded-s-lg text-sm sm:text-base hover:opacity-90 transition-opacity"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+
+          <div class="lg:mt-5 space-y-4">
+            <div>
+              <p
+                class="text-gray-900 dark:text-white text-sm sm:text-base break-all"
+              >
+                Ishimweralph@gmail.com
+              </p>
+            </div>
+            <div>
+              <p class="text-gray-900 dark:text-white text-sm sm:text-base">
+                (250) 780-833-335
+              </p>
+            </div>
+            <div>
+              <p class="text-gray-900 dark:text-white text-sm sm:text-base">
+                KIGALI, RWANDA
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a
+                href="https://github.com/yvanralph"
+                class="text-gray-900 dark:text-white text-xs sm:text-sm"
+              >
+                <i class="fab fa-github text-xs sm:text-sm"></i> Github
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ishimwe-yvan-ralph-706388231/"
+                class="text-gray-900 dark:text-white text-xs sm:text-sm"
+              >
+                <i class="fab fa-linkedin text-xs sm:text-sm"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="pb-8"></div>
+    </main>
+
+    <script>
+      function switchTab(tab) {
+        const tabs = ["work", "studies"];
+        const isDark = document.documentElement.classList.contains("dark");
+
+        tabs.forEach((t) => {
+          const tabBtn = document.getElementById(`tab-${t}`);
+          const content = document.getElementById(`content-${t}`);
+
+          if (t === tab) {
+            // Active tab styles
+            if (isDark) {
+              tabBtn.className =
+                "px-3 sm:px-4 py-2 text-black bg-white font-semibold text-xs sm:text-sm focus:outline-none";
+            } else {
+              tabBtn.className =
+                "px-3 sm:px-4 py-2 text-white bg-gray-900 font-semibold text-xs sm:text-sm focus:outline-none";
+            }
+            content.classList.remove("hidden");
+          } else {
+            // Inactive tab styles
+            if (isDark) {
+              tabBtn.className =
+                "px-3 sm:px-4 py-2 text-xs sm:text-sm text-gray-400 border-transparent hover:text-white focus:outline-none";
+            } else {
+              tabBtn.className =
+                "px-3 sm:px-4 py-2 text-xs sm:text-sm text-gray-600 border-transparent hover:text-gray-900 focus:outline-none";
+            }
+            content.classList.add("hidden");
+          }
+        });
+      }
+
+      const moonIcon = `
+      <span class="text-xl sm:text-2xl text-gray-900 dark:text-white">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+            viewBox="0 0 24 24" height="1em" width="1em"
+            xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.768 3.96v.001l-.002-.005a9.08 9.08 0 0 0-.218-.779c-.13-.394.21-.8.602-.67.29.096.575.205.855.328l.01.005A10.002 10.002 0 0 1 12 22a10.002 10.002 0 0 1-9.162-5.985l-.004-.01a9.722 9.722 0 0 1-.329-.855c-.13-.392.277-.732.67-.602.257.084.517.157.78.218l.004.002A9 9 0 0 0 14.999 6a9.09 9.09 0 0 0-.231-2.04ZM16.5 6c0 5.799-4.701 10.5-10.5 10.5-.426 0-.847-.026-1.26-.075A8.5 8.5 0 1 0 16.425 4.74c.05.413.075.833.075 1.259Z"></path>
+        </svg>
+      </span>
+      `;
+
+      const btn = document.getElementById("theme-toggle");
+      const html = document.documentElement;
+      const logo = document.getElementById("logo");
+
+      function updateTheme(isDark) {
+        if (isDark) {
+          html.classList.add("dark");
+          html.classList.remove("light");
+          btn.innerHTML =
+            '<span class="text-xl sm:text-2xl text-white">☀︎</span>';
+          logo.src = "./program/logo/light.png";
+          localStorage.theme = "dark";
+        } else {
+          html.classList.remove("dark");
+          html.classList.add("light");
+          btn.innerHTML = moonIcon;
+          logo.src = "./program/logo/dark.png";
+          localStorage.theme = "light";
+        }
+        // Update tab styles
+        switchTab("work");
+      }
+
+      // Load saved theme
+      if (localStorage.theme === "dark") {
+        updateTheme(true);
+      } else {
+        updateTheme(false);
+      }
+
+      btn.addEventListener("click", () => {
+        const isDark = html.classList.contains("dark");
+        updateTheme(!isDark);
+      });
+    </script>
+  </body>
+</html>
